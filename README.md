@@ -23,8 +23,8 @@ This project addresses the problem of enhancing the reasoning capabilities of La
 ## 🧠 1. Introduction
 LLMs have achieved unprecedented success across a broad range of natural language processing tasks. However, while early models handled routine tasks well, their limitations in complex, high-stakes reasoning—such as mathematical problem-solving and program synthesis—have prompted the development of specialized reasoning-centric LLMs. These newer models are trained on datasets that explicitly target deductive, abductive, and multi-hop reasoning skills, resulting in improved capabilities like structured deliberation and extended inferential chains.
 
-<img src="Final_Year_Project/image_1.png" height="270" width="500">
-<img src="Final_Year_Project/image_2.png" width="500">
+<img src="image_1.png" height="270" width="500">
+<img src="image_2.png" width="500">
 
 To further strengthen domain-specific reasoning, fine-tuning procedures are commonly applied to pre-trained LLMs. Two dominant paradigms are SFT and RL. While SFT leverages teacher-model demonstrations to guide learning, RL refines model behavior through iterative reward-based feedback. Despite their effectiveness, most prior research has focused on full-parameter fine-tuning, leaving open questions about their performance and interplay under PEFT settings—such as with LoRA. How to apply an efficient Fine-tuning among two stages, and how to apply the two stages for different training datasets, that are the problems highlighted.
 
